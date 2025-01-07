@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Website With Tailwind CSS</title>
+    <link rel="stylesheet" herf="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <div class="container min-h-screen bg-[url('images/image.png')] bg-center bg-cover px-28 py-5">
+        <nav class="flex items-center">
+           <img src="images/logo.png" class="w-40 cursor-pointer">
+           <ul class="flex-1 text-center"
+            <li class="list-none inline-block px-5"><a herf="#" class="no-underline text-white px-2">Home</a></li>
+            <li class="list-none inline-block px-5"><a herf="#" class="no-underline text-white px-2">About</a></li>
+            <li class="list-none inline-block px-5"><a herf="#" class="no-underline text-white px-2">Contact</a></li>
+           </ul>
+           <img src="images/cart.png" class="w-8 cursor-pointer">
+        </nav>
+        <div class="text-white mt-48">
+            <h1 class="text-6xl font-semibold">Groceries<br>delivery in 15 mins</h1>
+            <p>Grocufy offer a wide range of products, including fresh pruducts, meats, dairy, baked goods and non-perishable items.</p>
+        </div>
+        <div class="container mx-auto mt-10">
+            <h2 class="text-4xl font-bold text-center text-gray-300 mb-6">Products</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <!-- Product 1 -->
+              <div class="bg-white shadow-lg rounded-lg p-4">
+                <img src="images/apple.png" alt="Product 1" class="w-full h-48 object-cover rounded-md mb-4" style="object-fit: contain;">
+                <h3 class="text-lg font-semibold text-gray-800">Apple</h3>
+                <p class="text-gray-600 mt-2">$10.99</p>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                  Add to Cart
+                </button>
+              </div>
+              <!-- Product 2 -->
+              <div class="bg-white shadow-lg rounded-lg p-4">
+                <img src="images/dragonfruit.png" alt="Product 2" class="w-full h-48 object-cover rounded-md mb-4" style="object-fit: contain;">
+                <h3 class="text-lg font-semibold text-gray-800">Dragon fruit</h3>
+                <p class="text-gray-600 mt-2">$15.99</p>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                  Add to Cart
+                </button>
+              </div>
+              <!-- Product 3 -->
+              <div class="bg-white shadow-lg rounded-lg p-4">
+                <img src="images/bannana.png" alt="Product 3" class="w-full h-48 object-cover rounded-md mb-4" style="object-fit: contain;">
+                <h3 class="text-lg font-semibold text-gray-800">Banana</h3>
+                <p class="text-gray-600 mt-2">$12.99</p>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                  Add to Cart
+                </button>
+              </div>
+              <div class="bg-white shadow-lg rounded-lg p-4">
+                <img src="images/oranges.png" alt="Product 2" class="w-full h-48 object-cover rounded-md mb-4" style="object-fit: contain;">
+                <h3 class="text-lg font-semibold text-gray-800">Oranges</h3>
+                <p class="text-gray-600 mt-2">$15.99</p>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                  Add to Cart
+                </button>
+              </div>
+              <div class="bg-white shadow-lg rounded-lg p-4">
+                <img src="images/potatoes.png" alt="Product 2" class="w-full h-48 object-cover rounded-md mb-4" style="object-fit: contain;">
+                <h3 class="text-lg font-semibold text-gray-800">Potatoes</h3>
+                <p class="text-gray-600 mt-2">$15.99</p>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                  Add to Cart
+                </button>
+              </div>
+              <div class="bg-white shadow-lg rounded-lg p-4">
+                <img src="images/tomatose.png" alt="Product 2" class="w-full h-48 object-cover rounded-md mb-4" style="object-fit: contain;">
+                <h3 class="text-lg font-semibold text-gray-800">Tomatoes</h3>
+                <p class="text-gray-600 mt-2">$15.99</p>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+    </div>
+
+</body>
+</html>
